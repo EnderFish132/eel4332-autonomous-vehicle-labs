@@ -23,7 +23,7 @@ RESULTS_DIR = Path(__file__).resolve().parents[1] / "results"
 # Each tuple has the form (case_name, left_speed, right_speed), with wheel
 # angular velocities in rad/s. Do not change the robot geometry to meet the
 # motion target.
-STUDENT_MOTION_CASES: list[tuple[str, float, float]] = []
+STUDENT_MOTION_CASES: list[tuple[str, float, float]] = [("forward right-hand curve",5,4)]
 
 
 def add_trajectory_playback(
